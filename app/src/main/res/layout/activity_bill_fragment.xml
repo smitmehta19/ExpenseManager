@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context="Smit.expensemanager.billFragment">
+    
+    <ImageView
+        android:id="@+id/image_view"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_black_24dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp" />
+    
+    <Button
+        android:id="@+id/capture_img_btn"
+        android:text="Capture Bill Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
